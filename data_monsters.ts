@@ -18,7 +18,7 @@ export const MONSTER_DATABASE: Monster[] = [
     image: IMAGE_ASSETS.MONSTERS.SLIME,
     captureRate: 0.4,
     skills: [getSkill('s-normal')],
-    spawnMaps: ['薩姆吉爾村', '瑪麗娜絲漁村']
+    spawnMaps: ['綠溪谷地']
   },
   { 
     id: 'm2', 
@@ -32,7 +32,7 @@ export const MONSTER_DATABASE: Monster[] = [
     image: IMAGE_ASSETS.MONSTERS.ULIULI,
     captureRate: 0.35,
     skills: [getSkill('s-normal')],
-    spawnMaps: ['薩姆吉爾村', '加加村']
+    spawnMaps: ['綠溪谷地', '北嶺高地']
   },
   { 
     id: 'm3', 
@@ -46,7 +46,7 @@ export const MONSTER_DATABASE: Monster[] = [
     image: IMAGE_ASSETS.MONSTERS.WEIBER,
     captureRate: 0.2,
     skills: [getSkill('s-normal'), getSkill('s-bite')],
-    spawnMaps: ['加加村', '阿布洞窟']
+    spawnMaps: ['北嶺高地', '石脊山道']
   },
   { 
     id: 'm4', 
@@ -60,6 +60,6 @@ export const MONSTER_DATABASE: Monster[] = [
     image: IMAGE_ASSETS.MONSTERS.OKALOS,
     captureRate: 0.1,
     skills: [getSkill('s-normal'), getSkill('s-power-1'), getSkill('s-stomp')],
-    spawnMaps: ['阿布洞窟', '漆黑的洞窟']
+    spawnMaps: ['石脊山道', '岩壁洞穴']
   }
 ];
